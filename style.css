@@ -1,0 +1,301 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+header {
+    background-image: url(./pictures/header_apply_now.jpg);
+    height: 300px;
+}
+
+.headInformation {
+    display: inline-block;
+    border: 2px dashed white;
+    text-align: center;
+    left: 33%;
+    top: 20%;
+    font-weight: bold;
+    color: white;
+    width: 500px;
+    position: relative;
+}
+
+
+.mePicture>img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    position: absolute;
+    left: 44%;
+    top: 28%;
+}
+
+nav {
+    margin-top: 22px;
+    display: flex;
+    position: relative;
+    left: 19%;
+}
+
+nav>ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav>ul>li {
+    display: inline;
+    margin-right: 50px;
+}
+
+nav>ul>li>a {
+    display: inline;
+    text-decoration: none;
+}
+
+.speciallink {
+    margin-right: 13rem;
+}
+
+hr {
+    margin-top: 13px;
+}
+
+.aboutMe {
+    text-align: center;
+}
+
+.aboutMe>h1 {
+    color: blue;
+    margin-top: 40px;
+}
+
+.aboutMe>div {
+    width: 800px;
+    margin-left: 330px;
+}
+
+.socialAccounts {
+    display: flex;
+    margin-left: 33%;
+}
+
+.socialAccounts>span>a>img {
+    width: 60px;
+    height: 60px;
+}
+
+.container1 {
+    background-image: url(./pictures/brandi-redd-aJTiW00qqtI-unsplash.jpg);
+    background-size: cover;
+}
+
+.container1>h1 {
+    background-color: rgb(69, 185, 184);
+    color: white;
+    font-weight: normal;
+    text-align: center;
+    padding: 12px;
+}
+
+.mySkills {
+    width: 90%;
+    display: flex;
+    margin-left: 5%;
+    justify-content: space-evenly;
+    height: 490px;
+    padding-top: 50px;
+}
+
+.mySkills>div>h1 {
+    color: rgb(69, 185, 184);
+    font-size: 23px !important;
+    text-align: center;
+}
+
+.mySkills>div {
+    font-size: 15px;
+    width: 320px;
+    height: 360px;
+    background-color: white;
+    padding: 25px;
+    line-height: 30px;
+}
+
+.container2 {
+    background-image: url(./pictures/wesley-tingey-AZtMXheXnWc-unsplash.jpg);
+    padding: 50px;
+    background-size: cover
+}
+
+.ourMission {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    width: 50%;
+    position: relative;
+    left: 22%;
+}
+
+.myDesignWorks {
+    padding-top: 35px;
+    text-align: center;
+    width: 50%;
+    position: relative;
+    left: 23%;
+}
+
+.myDesignWorks>h1 {
+    color: rgb(69, 185, 184);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    position: relative;
+    width: 60%;
+    height: 10%;
+    left: 18%;
+}
+
+.grid-item>a>img {
+    width: 100%;
+    height: 100%;
+}
+
+.btn {
+    margin-top: 50px;
+    text-align: center;
+}
+
+button {
+    padding: 10px;
+    width: 140px;
+    color: rgb(69, 185, 184);
+    border: 2px solid rgb(69, 185, 184);
+    background-color: white;
+    font-weight: bold;
+    cursor: grab;
+
+}
+
+button:hover {
+    background-color: rgb(50, 168, 81);
+}
+
+.container3 {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(132, 132, 178, 1) 0%, rgba(0, 212, 255, 1) 68%);
+    margin-top: 50px;
+    padding: 10px;
+    margin-bottom: 55px;
+}
+
+.hireMe {
+    text-align: center;
+    color: white;
+    width: 42%;
+    position: relative;
+    left: 27%;
+    line-height: 35px;
+}
+
+.hireMe>h4 {
+    font-weight: normal;
+    font-size: 28px;
+}
+
+.hireMe>span {
+    display: block;
+    font-size: 20px;
+}
+
+.hireMe>span>a {
+    text-decoration: none;
+    color: white;
+}
+
+.hireMeHr {
+    padding: 3px;
+    background-color: rgb(54, 86, 229);
+    width: 22%;
+}
+
+.container4 {
+    display: flex;
+    justify-content: center;
+}
+
+.btnNow {
+    text-align: center;
+}
+
+.btnNow>button {
+    padding: 10px;
+    width: 140px;
+    color: rgb(69, 185, 184);
+    border: 2px solid rgb(69, 185, 184);
+    background-color: white;
+    font-weight: bold;
+    cursor: grab;
+
+}
+
+.btnNow>button:hover {
+    background-color: rgb(50, 168, 81);
+}
+
+.container5 {
+    background-color: rgb(40, 96, 189);
+    margin-top: 50px;
+    padding: 15px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+    height: 200px;
+}
+
+.container5>p {
+    font-weight: normal;
+}
+
+.container5>.footerAboveLine>span {
+    margin-right: 35px;
+
+}
+
+.container5>.footerBelowLine>span {
+    display: inline-block;
+    margin-right: 35px;
+}
+
+.specialSpan {
+    display: inline-block;
+    padding: 7px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.contactMe {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.contactMe>button {
+    padding: 10px;
+    width: 160px;
+    color: white;
+    border: 2px solid white;
+    background-color: rgb(40, 96, 189);
+    font-weight: bold;
+    cursor: grab;
+    margin-top: 12px;
+
+}
+
+.contactMe>button:hover {
+    background-color: rgb(50, 168, 81);
+}
